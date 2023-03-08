@@ -1,11 +1,11 @@
 <template>
-    <div class="bg-white shadow rounded-xl">
+    <div class="bg-darkColor shadow rounded-xl">
         <router-link :to="`/meal/${meal.idMeal}`">
             <img :src="meal.strMealThumb" alt="meal" class="rounded-t-xl w-full h-48 object-cover"/>
         </router-link>
         <div class="px-3">
-            <h3 class="font-bold">{{ meal.strMeal }}</h3>
-            <p class="mb-4">
+            <h3 class="text-white font-bold">{{ meal.strMeal }}</h3>
+            <p class="text-textGray mb-4">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus provident, est, incidunt.
             </p>
             <div class="mb-4 flex items-center justify-between">

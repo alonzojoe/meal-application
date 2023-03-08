@@ -1,7 +1,7 @@
 <template>
-    <div class="bg-gray-100 h-full">
-        <Navbar/>
-        <main>
+    <div class="bg-darkColorv2 h-full">
+        <Navbar class="sticky top-0 z-50"/>
+        <main class="relative">
           <router-view/>
         </main>
     </div>

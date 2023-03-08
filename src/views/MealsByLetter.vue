@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="flex justify-center gap-1">
-            <router-link :to="{name: 'byLetter', params: {letter}}" v-for="letter in letters" :key="letter">
+            <router-link class="text-white" :to="{name: 'byLetter', params: {letter}}" v-for="letter in letters" :key="letter">
                 <span :class="selectedLetter == letter ? 'font-semibold' : '' ">{{ letter }}</span>
             </router-link>
         </div>
